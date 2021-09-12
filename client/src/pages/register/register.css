@@ -1,0 +1,54 @@
+.register{
+    height: calc(100vh - 3.5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://images.unsplash.com/photo-1614236224416-9a88c2e195e1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=568&q=80");
+    background-size: cover;
+   
+}
+.registerTitle{
+    font-size: 3.1rem;
+     color: rgb(50, 49, 49);
+}
+.registerForm{
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+  
+}
+.registerForm label{
+    margin: 0.7rem 0;
+}
+.registerInput{
+    padding: 0.7rem;
+    background-color: white;
+    border: none;
+}
+.registerButton{
+    margin-top: 1.2rem;
+    cursor: pointer;
+    background-color:  rgba(2, 139, 86, 0.692);
+    border: none;
+    color: white;
+    border-radius: 0.7rem;
+    padding: 0.7rem;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 3.9rem;
+    right:1.2rem ;
+    background-color:thistle;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 0.7rem;
+    padding: 0.6rem;
+
+}
+.err{
+    color: red;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 1rem;
+}

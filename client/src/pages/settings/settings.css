@@ -1,0 +1,85 @@
+.settings{
+    display: flex;
+}
+.settingsWrapper{
+    padding: 1.2rem;
+}
+@media screen and (min-width: 768px){
+.settingsWrapper{
+    flex:9;
+}
+}
+.settingsTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingsUpdateTitle{
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+    color: #f58484;
+}
+.settingsDeleteTitle{
+    color: red;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+}
+.settingsPP{
+    display: flex;
+    align-items: center;
+    margin: 0.7rem 0;
+}
+.settingsPP img{
+    width: 7.3rem;
+    height: 7.3rem;
+    border-radius: 1.2rem;
+    object-fit: cover;
+}
+.settingsPPIcon{
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    background-color: lightcoral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.7rem;
+    cursor: pointer;
+}
+.settingsForm label{
+    font-size: 1.2rem;
+    margin-top: 1.1rem;
+}
+.settingsForm input{
+    color: gray;
+    margin: 0.7rem 0;
+    height: 1.9rem;
+    border: none;
+    border-bottom: 1px solid rgb(209, 210, 211);  
+      
+}
+.settingsForm input:focus{
+    outline: none;
+}
+.settingsSubmit{
+    width: 9rem;
+    align-self: center;
+    border: none;
+    border-radius: 00.7rem;
+    color: white;
+    background-color: teal;
+    padding: 0.7rem;
+    margin-top: 1.1rem;
+    cursor: pointer;
+}
+.successAl{
+     color: "green";
+      text-align: "center";
+       margin-top: 1.2rem; 
+}
